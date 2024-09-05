@@ -279,7 +279,7 @@ class RecyclingPeakEncoder(torch.nn.Module):
 
         Parameters
         ----------
-        X : torch.Tensor of shape (n_spectra, n_peaks, 3)
+        X : torch.Tensor of shape (n_spectra, n_peaks, 2)
             The spectra to embed. Axis 0 represents a mass spectrum, axis 1
             contains the peaks in the mass spectrum, axis 2 is essentially
             a 2-tuple specifying the m/z-intensity pair for each peak. These

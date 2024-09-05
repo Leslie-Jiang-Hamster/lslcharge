@@ -5,6 +5,6 @@ from importlib.metadata import version, PackageNotFoundError
 def _get_version() -> str:
     """Return the version information for deptcharge."""
     try:
-        return version("depthcharge-ms")
+        return version("lslcharge")
     except PackageNotFoundError:
         return None
